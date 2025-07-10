@@ -1,2 +1,6 @@
 # EfficientAudioNet
 EfficientAudioNet: exploiting data fusion strategies and the EfficientNet-B0 for the environmental sound classification (ESC).
+
+Specifically, this work exploits a multi-representation strategy by fusing five kinds of audio features, namely: spectrograms, phasograms, scalograms, wavelet phasograms, and MFCC-grams. Each representation captures different properties of the audio. These representations are combined in a structured manner by investigating three fusion strategies: early, intermediate, and late fusion using a novel model based on the EfficientNet, named EfficientAudioNet. The proposed strategies are evaluated on four benchmark datasets: a Construction Site machinery sounds dataset, the ESC-10 and ESC-50 environmental sound datasets, and the UrbanSound8K dataset. Experimental results demonstrate that the multi-representation fusion, specially the early fusion, significantly enhances the classification performance.
+
+1. M. Scarpiniti, S. Hussain, W. Pu, A. Uncini, Y.-C. Lee, "EfficientAudioNet: Enhancing Environmental Sound Classification through Data Fusion of Multiple Audio Representations", in *2025 International Joint Conference on Neural Networks (IJCNN 2025)*, Rome, Italy, June 30 - July 05, 2025.
